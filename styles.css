@@ -1,0 +1,194 @@
+/* || General Styles */
+
+body {
+    display: flex;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    background-color: rgb(86, 159, 243);
+}
+
+.main-container {
+    background: rgb(1,0,3);
+    background: linear-gradient(0deg, rgba(1,0,3,1) 0%, rgba(17,6,38,1) 35%, rgba(92,26,217,1) 95%);
+    height: 500px;
+    width: 250px;
+    border-radius: 30px;
+    border: 8px solid black;
+    box-shadow: rgba(3, 3, 3, 0.35) 0px 5px 15px;
+}
+
+.ContentContainer {
+    height: 88%;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+/* || Status Bar styles */
+
+.StatusBar {
+    /* border: 1px solid white; */
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+
+}
+
+.time {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+/* || Top Nav Bar styles */
+
+.TopNavBar {
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0 13px;
+}
+
+.ThreeDotButton {
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BellIconContainer {
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TopNavBar span {
+    font-size: 0.7rem;
+    align-self: center;
+    font-weight: bold;
+}
+
+/* || Moive List Styles */
+
+.MovieList {
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /* width: max-content; */
+}
+
+.MovieList img:not(.MiddleMoviePoster) {
+    width: 120px;
+    border-radius: 15px;
+    -shboxadow: rgba(157, 157, 157, 0.35) 0px 5px 15px;
+}
+
+.MiddleMoviePoster {
+    width: 150px;
+    border-radius: 15px;
+}
+
+.WatchedMoives {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.WathcedMoviesNavBar {
+    font-size: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 13px;
+}
+
+.WathcedMoviesList {
+    height: 95px;
+    /* border: 1px solid white; */
+    background-color: rgb(47, 47, 47);
+    border-radius: 10px;
+    width: 90%;
+    display: flex;
+    gap: 20px;
+    font-size: 0.7rem;
+    margin: auto;
+    box-shadow: rgba(157, 157, 157, 0.35) 0px 5px 15px;
+}
+
+.WathcedMoviesList > img {
+    width: 65px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.details > .MovieName {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.details > div:not(.progress-bar) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.progress-bar {
+    width: 100px;
+    border: 1px solid white;
+    height: 10px;
+    border-radius: 20px;
+}
+
+.progress-bar > div {
+    width: 40%;
+    height: 100%;
+    background-color: rgb(106, 13, 146);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+/* || Navigation Bar styles */
+
+.NavigationDiv {
+    /* border: 1px solid white; */
+    height: 12%;
+    background-color: rgb(47, 47, 47);
+    opacity: 0.8;
+    border-radius: 0px 0px 29px 29px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+
+}
+
+.NavBarIconContainers {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.NavigationDiv span {
+    font-size: 0.7rem;
+}
